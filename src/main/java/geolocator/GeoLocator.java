@@ -12,8 +12,6 @@ import org.apache.commons.io.IOUtils;
 
 import org.apache.commons.io.IOUtils;
 
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
-
 public class GeoLocator {
 
     public static final String GEOLOCATOR_SERVICE_URI = "http://ip-api.com/json/";
