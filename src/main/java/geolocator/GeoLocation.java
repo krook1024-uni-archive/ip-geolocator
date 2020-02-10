@@ -1,5 +1,7 @@
 package geolocator;
 
+import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+
 public class GeoLocation {
 
     private String as;
@@ -15,6 +17,10 @@ public class GeoLocation {
     private String regionName;
     private String timezone;
     private String zip;
+
+    public String toString() {
+        return ReflectionToStringBuilder.toString(this);
+    }
 
     public String getAs() {
         return as;
