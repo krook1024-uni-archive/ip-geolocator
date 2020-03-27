@@ -14,6 +14,11 @@
 		<organization>Faculty of Informatics, University of Debrecen</organization>
 		<organizationUrl>http://www.inf.unideb.hu/</organizationUrl>
 	</developer>
+	<developer>
+		<id>krook1024</id>
+		<name>Antal Molnár</name>
+		<email>krook1024@gmail.com</email>
+	</developer>
 </developers>
 <properties>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
